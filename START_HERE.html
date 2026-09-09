@@ -1,0 +1,23 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>社会边角料 v0.2 · 从这里开始</title>
+<style>body{margin:0;background:#f6f7ee;color:#172923;font:16px/1.8 system-ui,sans-serif}main{max-width:850px;margin:auto;padding:36px 24px}header{display:flex;align-items:center;gap:18px;border-bottom:2px solid #16634e;padding-bottom:20px}img{width:72px;height:72px}h1{margin:0;font-size:32px}h2{margin-top:32px;font-size:22px}p{margin:12px 0}.note{background:#e5eed8;padding:18px 22px;border-left:4px solid #758f54;border-radius:9px}strong{color:#16634e}code{background:#e8eae1;padding:2px 5px;overflow-wrap:anywhere}a{color:#16634e}.minor{color:#5e6e66;font-size:14px}footer{margin-top:35px;border-top:1px solid #d1d9cf;padding-top:18px}</style></head><body><main>
+<header><img src="extension/icons/128.png" alt="社会边角料图标"><div><h1>社会边角料 v0.2</h1><div>投递完成，让消息继续得到回应。</div></div></header>
+<p class="minor">显示名 v0.2 · 扩展内部版本 0.2.0 · 本地运行 · 不接模型 · 无新增权限</p>
+<h2>第一件事：原地覆盖，不要卸载</h2>
+<p>暂停旧任务，将 <code>extension</code> 文件夹中的全部文件覆盖到原先加载的扩展目录，保持原路径。目录内应直接看见 <code>manifest.json</code>。在扩展管理页重新加载，并刷新所有 BOSS 职位页、消息页，重开侧栏确认 v0.2。</p>
+<div class="note">保留已有话术、方向、行业、绑定、图标和历史去重。升级不会自动发送；未核验提交不重发。</div>
+<h2>还要投递：第五步自动接到第六步</h2>
+<p>第三步可以点<strong>“一键打开职位页并绑定”</strong>，只读取，不发送。第五步核对话术和数量，保留<strong>“投递结束后立即进入第六步，持续监听并回复”</strong>的勾选，再开始自动沟通。</p>
+<p>本批收尾后自动打开消息页进入值守，不用等两小时、不用再手动点联系人。</p>
+<h2>已经投完：不要重新投递</h2>
+<p>直接到第六步，勾选<strong>“持续值守整个消息列表”</strong>，点击<strong>“一键开启消息值守”</strong>。自动读取现有与新出现的联系人，优先待回复消息；没有新消息就继续等。</p>
+<p>确认“消息值守已开启”和最近检查时间。普通等待 HR 回复的会话不追加催促；已发过的内容不重复。首次会只读检查历史会话是否留有简历请求。</p>
+<h2>简历与拒绝</h2>
+<p>明确的简历请求 → 同意 → 弹窗当前第一份 → 发送 → 核验。不会点电话或微信交换中的同意。网站直接发送默认附件的布局如实记录，不补发第二份。</p>
+<p>普通拒绝最多礼貌追问一次原因；“抱歉刚看到”不算拒绝；明确不要再联系则停止。缺失事实留人工，不编造、不反复施压。</p>
+<h2>值守需要什么</h2>
+<p>电脑开机联网、浏览器保持运行、BOSS 登录有效。运行时默认申请防系统闲置睡眠，允许屏幕熄灭；不保证强制休眠、断网、退出浏览器后继续工作。人工点击聊天联系人或输入时暂停，暂停后释放防睡眠请求。</p>
+<div class="note">不是云端挂机，也不承诺硬实时秒回。本地自动化不等于网站官方授权；平台验证、限制或登录失效需要人工处理。</div>
+<h2>测试说明</h2>
+<p>完整报告在 <a href="docs/TEST_REPORT.md">docs/TEST_REPORT.md</a>，源码与测试脚本在包内。本环境未能完成原生扩展加载，没有真实账号实投或整夜／真实睡眠测试；合成页面测试不能代替实机验证。</p>
+<footer><a href="README.md">完整说明</a> · <a href="升级说明.txt">升级说明文本</a><p class="minor">独立工具，与 BOSS 直聘无关联。先核实话术与发送范围，任务始终可以暂停。</p></footer>
+</main></body></html>
